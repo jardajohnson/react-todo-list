@@ -14,7 +14,7 @@ function App() {
 	return (
 		<div className='container d-flex flex-column justify-content-center align-items-center gap-3'>
 			<h1>Todo List</h1>
-
+			{JSON.stringify(list)}
 			<Input
 				input={input}
 				setInput={setInput}
